@@ -1,4 +1,4 @@
-<img src="https://imgur.com/a/Gj7N8kF" width="32" /> [Pam's HarvestCraft 2 Nerf](modrinth link)
+<img src="https://i.imgur.com/a/Gj7N8kF.png" width="32" /> [Pam's HarvestCraft 2 Nerf](modrinth link)
 ===========
 
 Ever wondered why fresh water is so nutritious?
