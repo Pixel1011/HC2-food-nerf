@@ -1,27 +1,25 @@
+<img src="https://imgur.com/a/Gj7N8kF" width="32" /> [Pam's HarvestCraft 2 Nerf](modrinth link)
+===========
 
-Installation information
-=======
+Ever wondered why fresh water is so nutritious?
+![](https://i.imgur.com/a/woa0zPg.png)
 
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions at [github](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+or why ground nutmeg is THIS
+![](https://i.imgur.com/a/CeJTVnS.png)
 
-Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
+Well this mod fixes that by changing the food values of all harvest craft 2 foods to be more in line with the 1.12.2 version of harvest craft. Along with a few tag fixes to fix things like bananas and avocados being considered eggs.
 
-> **Note**: For Eclipse, use tasks in `Launch Group` instead of ones founds in `Java Application`. A preparation task must run before launching the game. NeoGradle uses launch groups to do these subsequently.
+If requested i may add a few config options to just nerf game breaking foods like the fresh water. But for now it will revert all food values to 1.12.2 values.
 
-If at any point you are missing libraries in your IDE, or you've run into problems you can
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-{this does not affect your code} and then start the process again.
+---
 
-Mapping Names:
-============
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/NeoForged/NeoForm/blob/main/Mojang.md
+### Building the mod
+1. Clone the repository
+2. Open a command line and execute ```gradlew build```
 
-Additional Resources: 
-==========
-Community Documentation: https://docs.neoforged.net/  
-NeoForged Discord: https://discord.neoforged.net/
+Pull requests are very welcome, and i suspect most changes will be tag related as i havent entirely gone over that.
+
+
+You are free to use this in any modpack, credit is nice though :3
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/N4N6145I0V)
