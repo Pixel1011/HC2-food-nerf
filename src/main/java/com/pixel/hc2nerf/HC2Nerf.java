@@ -83,7 +83,7 @@ public class HC2Nerf {
 
             String[] split = id.split(":");
             Item i = BuiltInRegistries.ITEM.get(ResourceLocation.fromNamespaceAndPath(split[0], split[1]));
-            
+            if (i.toString().equals("minecraft:air")) continue; // in case some addon mods arent installed
             if (hunger == 0 && saturation == 0.0f) {
                 event.modify(i, builder -> {
                     builder.remove(DataComponents.FOOD);
