@@ -1,11 +1,11 @@
-<img src="https://i.imgur.com/a/Gj7N8kF.png" width="32" /> [Pam's HarvestCraft 2 Nerf](modrinth link)
+<img src="https://i.imgur.com/yxiHy6G.png" width="32" /> [Pam's HarvestCraft 2 Nerf](modrinth link)
 ===========
 
 Ever wondered why fresh water is so nutritious?
-![](https://i.imgur.com/a/woa0zPg.png)
+![](https://i.imgur.com/bILgUHT.png)
 
 or why ground nutmeg is THIS
-![](https://i.imgur.com/a/CeJTVnS.png)
+![](https://i.imgur.com/Lx6Lu0p.png)
 
 Well this mod fixes that by changing the food values of all harvest craft 2 foods to be more in line with the 1.12.2 version of harvest craft. Along with a few tag fixes to fix things like bananas and avocados being considered eggs.
 
