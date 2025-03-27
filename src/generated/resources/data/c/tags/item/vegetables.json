@@ -1,7 +1,6 @@
 {
-  "replace": false,
-  "values": [],
   "remove": [
     "pamhc2trees:avocadoitem"
-  ]
+  ],
+  "values": []
 }

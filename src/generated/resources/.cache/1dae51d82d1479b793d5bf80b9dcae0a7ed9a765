@@ -1,0 +1,11 @@
+// 1.21.1	2025-03-27T21:45:31.8542727	Tags for minecraft:item mod id hc2nerf
+71c7bdcd1b5859c8ad6de2abd635124961974707 data/c/tags/item/egg.json
+4603c526b353831ae8df3f3776353afa4819cecf data/c/tags/item/egg/avocado.json
+d28a156609fcbb31e992d52b82399513a41f691a data/c/tags/item/egg/banana.json
+366d16bb381f0c0d486b72b69ea93836f4293ea1 data/c/tags/item/grain.json
+2b5911738b68868feb3191790e1f9914fdd64e7b data/c/tags/item/grain/bean.json
+61ef32bf7eede6ad56a51402e49ec9c72bf1b93b data/c/tags/item/grain/chickpea.json
+9a79131a978f992c7b793e3b3c48688ca68c7da0 data/c/tags/item/grain/lentil.json
+1705d3ebf9e43bb1a6d0ebdd1d2fb32ffcd56f07 data/c/tags/item/grain/soybean.json
+4603c526b353831ae8df3f3776353afa4819cecf data/c/tags/item/vegetables.json
+4603c526b353831ae8df3f3776353afa4819cecf data/c/tags/item/vegetables/avocado.json

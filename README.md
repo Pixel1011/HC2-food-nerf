@@ -7,9 +7,14 @@ Ever wondered why fresh water is so nutritious?
 or why ground nutmeg is THIS
 ![](https://i.imgur.com/Lx6Lu0p.png)
 
-Well this mod fixes that by changing the food values of all harvest craft 2 foods to be more in line with the 1.12.2 version of harvest craft. Along with a few tag fixes to fix things like bananas and avocados being considered eggs.
+Well this mod fixes that by providing options to change the food values of all harvest craft 2 foods to be more in line with the 1.12.2 version of harvest craft. Along with a few tag fixes to fix things like bananas and avocados being considered eggs.
 
-If requested i may add a few config options to just nerf game breaking foods like the fresh water. But for now it will revert all food values to 1.12.2 values.
+### Features
+- Changes the food values of all harvest craft 2 foods to be in line with the 1.12.2 version of harvest craft.
+- Fixes game breaking foods like fresh water, oil, etc.
+- Can also nerf default minecraft foods as 1.12.2 does
+- Above features are configurable
+- Fixes some tags so they make sense in recipes
 
 ---
 

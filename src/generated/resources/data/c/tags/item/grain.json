@@ -1,10 +1,9 @@
 {
-  "replace": false,
-  "values": [],
   "remove": [
-    "pamhc2crops:beanitem", 
+    "pamhc2crops:beanitem",
     "pamhc2crops:chickpeaitem",
     "pamhc2crops:lentilitem",
     "pamhc2crops:soybeanitem"
-  ]
+  ],
+  "values": []
 }
