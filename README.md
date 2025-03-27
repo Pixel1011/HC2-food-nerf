@@ -16,7 +16,6 @@ Well this mod fixes that by providing options to change the food values of all h
 - Above features are configurable
 - Fixes some tags so they make sense in recipes
 
----
 
 ### Building the mod
 1. Clone the repository
