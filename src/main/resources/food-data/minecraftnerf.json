@@ -41,7 +41,7 @@
     {"id": "minecraft:suspicious_stew", "hunger": 9, "saturation": 1.2},
     {"id": "minecraft:sweet_berries", "hunger": 1, "saturation": 0.6},
     {"id": "minecraft:glow_berries", "hunger": 1, "saturation": 0.6},
-    {"id": "minecraft:honey_Bottle", "hunger": 1, "saturation": 7},
+    {"id": "minecraft:honey_bottle", "hunger": 1, "saturation": 7},
     {"id": "minecraft:ominous_bottle", "hunger": 0, "saturation": 0}
 
   ]
