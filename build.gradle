@@ -19,6 +19,9 @@ group = mod_group_id
 
 repositories {
     mavenLocal()
+    maven {
+        url "https://cursemaven.com"
+    }
 }
 
 base {
@@ -38,7 +41,7 @@ legacyForge {
     }
 
     // This line is optional. Access Transformers are automatically detected
-    // accessTransformers = project.files('src/main/resources/META-INF/accesstransformer.cfg')
+    accessTransformers = project.files('src/main/templates/META-INF/accesstransformer.cfg')
 
     // Default run configurations.
     // These can be tweaked, removed, or duplicated as needed.
@@ -124,7 +127,12 @@ dependencies {
     // modCompileOnly "mezz.jei:jei-${mc_version}-common-api:${jei_version}"
     // modCompileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
     // We add the full version to localRuntime, not runtimeOnly, so that we do not publish a dependency on it
-    // modLocalRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
+    modImplementation "curse.maven:jei-238222:6600311"
+    modImplementation "curse.maven:appleskin-248787:4770828"
+    modImplementation "curse.maven:pams-harvestcraft-2-food-core-372534:5097798"
+    modImplementation "curse.maven:pams-harvestcraft-2-trees-365460:4625518"
+    modImplementation "curse.maven:pams-harvestcraft-2-crops-361385:4687624"
+    modImplementation "curse.maven:pams-harvestcraft-2-food-extended-402231:5147171"
 
     // Example mod dependency using a mod jar from ./libs with a flat dir repository
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
@@ -140,6 +148,7 @@ dependencies {
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
+
 }
 
 // Uncomment the lines below if you wish to configure mixin. The mixin file should be named modid.mixins.json.
