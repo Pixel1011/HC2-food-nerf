@@ -3,13 +3,6 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Attach to Remote Program",
-      "request": "attach",
-      "hostName": "127.0.0.1",
-      "port": "5005",
-    },
-    {
-      "type": "java",
       "request": "launch",
       "name": "Client",
       "presentation": {
@@ -23,11 +16,11 @@
       ],
       "vmArgs": [
         "@C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\build\\moddev\\clientRunVmArgs.txt",
-        "-Dfml.modFolders\u003dexamplemod%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
+        "-Dfml.modFolders\u003dhc2nerf%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {
-        "MOD_CLASSES": "examplemod%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
+        "MOD_CLASSES": "hc2nerf%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
       },
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -47,11 +40,11 @@
       ],
       "vmArgs": [
         "@C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\build\\moddev\\dataRunVmArgs.txt",
-        "-Dfml.modFolders\u003dexamplemod%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
+        "-Dfml.modFolders\u003dhc2nerf%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {
-        "MOD_CLASSES": "examplemod%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
+        "MOD_CLASSES": "hc2nerf%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
       },
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -71,11 +64,11 @@
       ],
       "vmArgs": [
         "@C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\build\\moddev\\gameTestServerRunVmArgs.txt",
-        "-Dfml.modFolders\u003dexamplemod%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
+        "-Dfml.modFolders\u003dhc2nerf%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {
-        "MOD_CLASSES": "examplemod%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
+        "MOD_CLASSES": "hc2nerf%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
       },
       "console": "internalConsole",
       "shortenCommandLine": "none"
@@ -95,11 +88,11 @@
       ],
       "vmArgs": [
         "@C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\build\\moddev\\serverRunVmArgs.txt",
-        "-Dfml.modFolders\u003dexamplemod%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
+        "-Dfml.modFolders\u003dhc2nerf%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
       ],
       "cwd": "${workspaceFolder}\\run",
       "env": {
-        "MOD_CLASSES": "examplemod%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
+        "MOD_CLASSES": "hc2nerf%%C:\\Users\\Pixel\\Desktop\\dev\\HC2-food-nerf-1.20.1\\bin\\main"
       },
       "console": "internalConsole",
       "shortenCommandLine": "none"
